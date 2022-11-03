@@ -112,7 +112,7 @@ public class Table extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         Table = new javax.swing.JTable();
         kGradientPanel2 = new keeptoo.KGradientPanel();
-        jLabel1 = new javax.swing.JLabel();
+        Admin = new javax.swing.JLabel();
         search = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         kGradientPanel1 = new keeptoo.KGradientPanel();
@@ -151,9 +151,9 @@ public class Table extends javax.swing.JFrame {
         kGradientPanel2.setkEndColor(new java.awt.Color(102, 102, 255));
         kGradientPanel2.setkStartColor(new java.awt.Color(102, 0, 204));
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 48)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Admin Table");
+        Admin.setFont(new java.awt.Font("Times New Roman", 0, 48)); // NOI18N
+        Admin.setForeground(new java.awt.Color(255, 255, 255));
+        Admin.setText("Admin Table");
 
         search.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
@@ -171,7 +171,7 @@ public class Table extends javax.swing.JFrame {
             kGradientPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1)
+                .addComponent(Admin)
                 .addGap(514, 514, 514)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -185,7 +185,7 @@ public class Table extends javax.swing.JFrame {
                 .addGroup(kGradientPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(search, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1))
+                    .addComponent(Admin))
                 .addGap(37, 37, 37))
         );
 
@@ -386,11 +386,11 @@ public class Table extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Admin;
     private javax.swing.JTable Table;
     private swing.ButtonGradient buttonGradient1;
     private swing.ButtonGradient buttonGradient2;
     private swing.ButtonGradient buttonGradient3;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane1;
